@@ -1,0 +1,42 @@
+// Clase estudiante
+// string nombre
+// string legajo
+// string carrera
+// int materiasPendientes
+// int materiasAprobadas
+// float porcentajeCarrera
+
+//+ inscribirseACursada(Cursada c): Boolean
+//+ mostrarInformacion():void
+
+
+public class SistemaGestionAlumnos {
+public static void main(String[] args) {
+
+    Est1 = new Estudiante();
+    Est1.nombreCompleto = "Andres Bystay";
+    Est1.numeroLegajo = 1;
+    Est1.carrera = "Licenciatura en Informatica";
+    est1.materiasPen = 2;
+    est1.materiasComp = 5;
+    est1.porcCarrera = 10.0;
+
+    Est2 = new Estudiante();
+    Est2.nombreCompleto = "Mariano Feito";
+    Est2.numeroLegajo = 2;
+    Est2.carrera = "Licenciatura en Informatica";
+    Est2.materiasPen = 1;
+    Est2.materiasComp = 6;
+    Est2.porcCarrera = 11.3;
+
+    est1.inscribirseacursada();
+    est1.mostrarinformacion();
+
+    est2.inscribirseacursada();
+    est2.mostrarinformacion();
+}
+
+
+}
+
+

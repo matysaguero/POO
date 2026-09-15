@@ -1,0 +1,15 @@
+public class Estudiante{
+    String nombreCompleto;
+    Int  numeroLegajo;
+    String  carrera;
+    Int  materiasPen;
+    Int  materiasComp;
+    Float  porcCarrera;
+
+void inscribirseacursada(carrera: C): boolean{
+}
+
+void mostrarinformacion(): void{
+}
+
+}
